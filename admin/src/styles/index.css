@@ -1,6 +1,7 @@
 :root {
   font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -23,3 +24,14 @@ body {
   height: 100%;
   position: relative;
 }
+
+div.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #f5f5f5;
+  border: 10px solid red;
+}
+
+
+/* ----->>> Auth Pages Styles <<<----- */
